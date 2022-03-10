@@ -16,6 +16,8 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+Because one of the x variables is global and other one is local to the function.
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +36,9 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+In first case (line 34), the output should be 10 as the x varaiable is global and it will be visble for the function. 
+In second case (line 35), the variable will not be visible as it only exists inside the function body. 
 
 ## Question 3
 
@@ -62,3 +67,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+Will output 9 and x: 10 because both console.log will take global variables. 
